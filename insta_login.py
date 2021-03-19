@@ -2,7 +2,7 @@
 def instalogin():
     from selenium import webdriver
     import time
-
+    #pushed to github
     driver= webdriver.Chrome(executable_path ='chromedriver_win32/chromedriver')
     #driver.get("https://www.instagram.com/accounts/login/")
     driver.implicitly_wait(10)   #To add wait time so that browser is properly loaded
